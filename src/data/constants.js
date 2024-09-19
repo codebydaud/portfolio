@@ -1,5 +1,6 @@
 export const Bio = {
   name: "Muhammad Daud",
+  img: "/images/HeroImage.jpg",
   roles: ["Full Stack Developer", "Web Developer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -235,8 +236,7 @@ export const projects = [
     date: "Aug 2024 - Sep 2024",
     description:
       "Developed YOLO, a full-stack food ordering platform designed to help customers create custom ideas and order custom recipes. With the help of an AI assistant, customers can submit ideas for custom recipes based on their preferences, and vendors (chefs) can generate personalized recipes. The platform supports two apps: Customer App and Vendor (Chef) App.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/119681431/367222928-053f0058-d25f-4237-b5e3-32b964c98153.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240919T090759Z&X-Amz-Expires=300&X-Amz-Signature=9712065d5fa965f76db66956ee618cde8d29f086fddd427eaab2a88648a1ec1e&X-Amz-SignedHeaders=host&actor_id=119681431&key_id=0&repo_id=847577581",
+    image: "/images/yolo-thumbnail.png",
     tags: [
       "Vue JS",
       "Pinia",
@@ -256,8 +256,7 @@ export const projects = [
     date: "July 2024 - Aug 2024",
     description:
       "Developed Finguard, a full-stack online banking platform built using modern web technologies. It supports two types of users: Admin and Customer. Customers can create accounts, transfer funds, view their transactions, and manage their profiles, while admins can manage customer accounts and view transactions. The app uses JWT (JSON Web Token) for secure authentication and authorization.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/119681431/356109704-5b05ee17-a1fe-456b-84de-ddbb714dfa3e.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240919T090830Z&X-Amz-Expires=300&X-Amz-Signature=3876f3ae6e37162b6ef2d1b721117a82f2f83a4934a656282404b43bea66b36f&X-Amz-SignedHeaders=host&actor_id=119681431&key_id=0&repo_id=839690240",
+    image: "/images/finguard-thumbnail.png",
     tags: ["React Js", "Redux", "Java", "Spring Boot", "Hibernate", "MySQL"],
     category: "web app",
     github: "https://github.com/codebydaud/finguard-bank-app",
