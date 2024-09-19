@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Muhammad Daud",
-  img: "/images/HeroImage.jpg",
+  img: "/images/HeroImage.png",
   roles: ["Full Stack Developer", "Web Developer", "Programmer"],
   description:
     "I am a proactive software engineer with a passion for tackling new challenges and expanding my expertise. Committed to delivering high-quality results, I approach every task with a positive attitude and a growth mindset, aiming to make a meaningful impact and achieve exceptional outcomes.",
