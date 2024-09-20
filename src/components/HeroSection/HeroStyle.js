@@ -2,7 +2,7 @@ import styled from "styled-components";
 import _default from "../../themes/default";
 
 export const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+  background: ${({ theme }) => theme.primary};
   display: flex;
   justify-content: center;
   position: relative;
@@ -99,7 +99,7 @@ export const Img = styled.img`
   max-width: 400px;
   max-height: 400px;
   border-radius: 50%;
-  border: 2px solid ${({ theme }) => theme.button};
+  border: 2px solid ${({ theme }) => theme.yellow};
 
   @media (max-width: 768px) {
     max-width: 400px;
@@ -146,7 +146,7 @@ export const TextLoop = styled.div`
 `;
 
 export const Span = styled.span`
-  color: ${({ theme }) => theme.button};
+  color: ${({ theme }) => theme.yellow};
   cursor: pointer;
 `;
 
@@ -175,7 +175,7 @@ export const ResumeButton = styled.a`
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
-    color:${({ theme }) => theme.card_light};
+    color:${({ theme }) => theme.primary};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
