@@ -64,7 +64,7 @@ const Card = styled.div`
     overflow: visible;
     -webkit-line-clamp: unset;
   }
-  border: 0.1px solid ${({ theme }) => theme.white};
+  border: 0.1px solid #306EE8;
 `;
 
 const Top = styled.div`
