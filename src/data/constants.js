@@ -220,15 +220,6 @@ export const education = [
     desc: "I completed my Intermediate in Pre-Engineering at KIPS College, Lahore.",
     degree: "FSc. Pre Engineering",
   },
-  {
-    id: 2,
-    img: "/images/syed-school-logo.jpg",
-    school: "Syed School System, Lahore",
-    date: "March 2015 - March 2017",
-    grade: "96.27%",
-    desc: "I completed my Matric(X) education at Syed School System, Lahore.",
-    degree: "Matric(X), Science with Computer",
-  },
 ];
 
 export const projects = [

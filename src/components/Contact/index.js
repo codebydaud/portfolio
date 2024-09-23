@@ -71,34 +71,34 @@ const ContactTitle = styled.div`
   font-size: 24px;
   margin-bottom: 6px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.card_text};
 `;
 
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid ${({ theme }) => theme.primary};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.card_text};
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 1px solid ${({ theme }) => theme.card_text};
   }
 `;
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid ${({ theme }) => theme.primary};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.card_text};
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 1px solid ${({ theme }) => theme.card_text};
   }
 `;
 

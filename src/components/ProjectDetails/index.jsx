@@ -24,7 +24,7 @@ border-radius: 16px;
 margin: 50px 12px;
 height: min-content;
 background-color: ${({ theme }) => theme.card};
-color: ${({ theme }) => theme.text_primary};
+color: ${({ theme }) => theme.card_text};
 padding: 20px;
 display: flex;
 flex-direction: column;
@@ -34,7 +34,7 @@ position: relative;
 const Title = styled.div`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.card_text};
   margin: 8px 6px 0px 6px;
   @media only screen and (max-width: 600px) {
       font-size: 24px;
@@ -46,7 +46,7 @@ const Date = styled.div`
     font-size: 16px;
     margin: 2px 6px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary};
+    color: ${({ theme }) => theme.card_text + 95};
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -57,7 +57,7 @@ const Date = styled.div`
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.card_text};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
@@ -76,7 +76,7 @@ const Image = styled.img`
 const Label = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.card_text};
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
         font-size: 16px;
@@ -159,10 +159,10 @@ const Button = styled.a`
     text-align: center;
     font-size: 16px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.primary};
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
+    background-color: ${({ theme }) => theme.yellow};
     ${({ dull, theme }) => dull && `
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};
